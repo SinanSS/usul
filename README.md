@@ -37,7 +37,7 @@ This is intentional.
 When starting a new project:
 
 ```bash
-git clone <this-repo-url> my_new_project
+git clone https://github.com/SinanSS/usul my_new_project
 cd my_new_project
 rm -rf .git
 git init
