@@ -5,6 +5,11 @@
 It includes only core infrastructure and shared components.
 No features, no business logic.
 
+## Requirements
+
+- Flutter >= 3.x
+- Dart >= 3.x
+
 ---
 
 ## What is included?
