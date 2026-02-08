@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'core/di/injection.dart';
+import 'core/theme/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light(),
+      theme: AppTheme.light(),
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(title: const Text('Material App Bar')),
